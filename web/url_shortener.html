@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Url shortener</title>
+    <link rel="stylesheet" href="url_shortener.css">
+  </head>
+  <body>
+    <h1>Url shortener</h1>
+    
+    <p>Small example of a url shortener, made with dart!</p>
+    
+    <div id="sample_container_id">
+      <input type="text" id="txtInput" placeholder="Enter any url here"/>
+      <input type="button" id="btnGenerate" value="Click to generate" />
+      <br/>
+      <label>Shortened url : </label><div id="result"></div>
+    </div>
+
+    <script type="application/dart" src="url_shortener.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+name: url_shortener
+description: A sample web application
+dependencies:
+  browser: any
